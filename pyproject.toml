@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "emoji-explainer"
+version = "0.1.0"
+description = "create an endpoint that connects to groq https://console.groq.com and takes in an emoji as input and explains to the user the meaning of it"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+bcrypt = "^3.2.0"
+fastapi = "*"
+httpx = "^0.23.0"
+passlib = "*"
+prisma = "*"
+pydantic = "*"
+pyjwt = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
